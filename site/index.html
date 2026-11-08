@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Spark Crew · FLL 타임라인</title>
+<meta name="description" content="Spark Crew의 FLL(FIRST LEGO League) 준비 과정을 시간 순서대로 모아 둔 사진·영상 타임라인">
+<meta name="theme-color" content="#14213D">
+<meta property="og:title" content="Spark Crew · FLL 타임라인">
+<meta property="og:description" content="우리가 달려온 스파크의 기록 ⚡">
+<meta property="og:image" content="assets/og.jpg">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="util"><div class="wrap"><span><b>⚡</b> 2026–2027 시즌 · BIOGLOW™</span><span>FIRST® LEGO® League</span></div></div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Spark Crew 홈"><img src="assets/logo.png" alt="Spark Crew 로고"></a>
+    <nav aria-label="주 메뉴">
+      <a href="#timeline">타임라인</a>
+      <a href="#about">FLL 소개</a>
+      <a href="#venue">대회 장소</a>
+    </nav>
+    <a class="btn" href="#venue">⚡ 11월 28일 대회</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">FIRST LEGO LEAGUE · BIOGLOW</span>
+      <h1>우리가 달려온<br><span>스파크</span>의 기록</h1>
+      <p class="lead">Spark Crew의 연습부터 리허설까지, 대회를 향한 모든 순간을 시간 순서대로 모았어요.</p>
+      <div class="cta">
+        <a class="btn" href="#timeline">타임라인 보기 ↓</a>
+        <a class="btn ghost" href="#venue">대회 장소</a>
+      </div>
+    </div>
+    <div class="hero-logo"><img src="assets/logo.png" alt="Spark Crew"></div>
+  </div>
+</section>
+
+<section id="timeline">
+  <div class="sec-head wrap">
+    <h2>우리의 타임라인</h2>
+    <p>스크롤을 내리면 시간이 흘러요 ⚡</p>
+  </div>
+  <div class="tl" id="tl"><div class="rail"><i id="fill"></i></div></div>
+</section>
+
+<section class="info" id="about">
+  <div class="sec-head wrap"><h2>FLL이란?</h2><p>FIRST® LEGO® League — 레고로 로봇을 만들고 코딩하며 문제를 해결하는 세계 대회</p></div>
+  <div class="wrap cards">
+    <div class="c"><h3>🤖 로봇 게임</h3><p>미션이 깔린 경기장에서 직접 만든 로봇이 점수를 얻어요.</p></div>
+    <div class="c"><h3>🌿 혁신 프로젝트</h3><p>올해 테마 BIOGLOW(생물다양성)와 관련된 문제를 찾아 해결책을 제안해요.</p></div>
+    <div class="c"><h3>🤝 코어 밸류</h3><p>발견, 혁신, 영향력, 포용, 팀워크, 즐거움. 함께 성장하는 것이 가장 중요해요.</p></div>
+  </div>
+</section>
+
+<section class="venue" id="venue">
+  <div class="wrap">
+    <div class="venue-card">
+      <div class="vdate"><small>2026</small><b>11.28</b><span>토요일</span></div>
+      <div class="vbody">
+        <span class="eyebrow">COMPETITION DAY</span>
+        <h2>Western Technical-Commercial School</h2>
+        <p>Spark Crew가 FLL 대회에 출전하는 곳이에요. 응원해 주세요! ⚡</p>
+        <a class="btn alt" href="https://maps.app.goo.gl/8Xwv3jVwxDx9b4cp6" target="_blank" rel="noopener">📍 지도에서 보기 ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <img src="assets/logo.png" alt="Spark Crew">
+    <div><strong>Spark Crew</strong><br>FLL 2026–2027 시즌 참가 팀</div>
+    <div class="cp">© 2026 Spark Crew. FIRST® and LEGO® are trademarks of their respective owners. 이 사이트는 팀 기록용 비공식 페이지입니다.</div>
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="사진 크게 보기" hidden>
+  <button class="x" aria-label="닫기">✕</button>
+  <button class="p" aria-label="이전 사진">‹</button>
+  <button class="n" aria-label="다음 사진">›</button>
+  <img id="lbimg" alt="">
+  <div class="c2" id="lbc"></div>
+</div>
+
+<div class="vm" id="vm" role="dialog" aria-modal="true" aria-label="영상 재생" hidden>
+  <button class="x" aria-label="닫기">✕</button>
+  <video id="vmv" controls playsinline preload="none"></video>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
