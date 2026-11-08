@@ -17,6 +17,7 @@ SRC = ROOT / "Pictures"
 SITE = ROOT / "site"
 MEDIA = SITE / "media"
 TITLES = json.loads((ROOT / "data" / "titles.json").read_text(encoding="utf-8"))
+EXCLUDE = set(json.loads((ROOT / "data" / "exclude.json").read_text(encoding="utf-8")))  # 사이트에서 뺄 원본 파일명
 
 for sub in ("photos", "thumbs", "videos", "posters"):
     (MEDIA / sub).mkdir(parents=True, exist_ok=True)
@@ -63,6 +64,8 @@ for d in sorted(p for p in SRC.iterdir() if p.is_dir()):
     entry = {"date": f"{date[:4]}-{date[4:6]}-{date[6:8]}",
              "title": TITLES.get(date, TITLES["default"]), "photos": [], "videos": []}
     for f in sorted(d.iterdir()):
+        if f.name in EXCLUDE:
+            continue
         ext = f.suffix.lower()
         key = f"{date}_{f.stem.split('_', 1)[-1]}"
         if ext in (".jpg", ".jpeg", ".png"):
