@@ -844,5 +844,29 @@
     "duration": 271
    }
   ]
+ },
+ {
+  "date": "2026-11-18",
+  "title": "연습",
+  "photos": [
+   {
+    "src": "media/photos/20261118_200029.webp",
+    "thumb": "media/thumbs/20261118_200029.webp",
+    "w": 1600,
+    "h": 1200
+   }
+  ],
+  "videos": [
+   {
+    "src": "media/videos/20261118_200323.mp4",
+    "poster": "media/posters/20261118_200323.webp",
+    "duration": 269
+   },
+   {
+    "src": "media/videos/20261118_201132.mp4",
+    "poster": "media/posters/20261118_201132.webp",
+    "duration": 300
+   }
+  ]
  }
 ]
