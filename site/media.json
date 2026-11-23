@@ -868,5 +868,112 @@
     "duration": 300
    }
   ]
+ },
+ {
+  "date": "2026-11-21",
+  "title": "연습",
+  "photos": [],
+  "videos": [
+   {
+    "src": "media/videos/20261121_185314.mp4",
+    "poster": "media/posters/20261121_185314.webp",
+    "duration": 41
+   },
+   {
+    "src": "media/videos/20261121_191856.mp4",
+    "poster": "media/posters/20261121_191856.webp",
+    "duration": 187
+   },
+   {
+    "src": "media/videos/20261121_192443.mp4",
+    "poster": "media/posters/20261121_192443.webp",
+    "duration": 203
+   },
+   {
+    "src": "media/videos/20261121_193029.mp4",
+    "poster": "media/posters/20261121_193029.webp",
+    "duration": 204
+   },
+   {
+    "src": "media/videos/20261121_193508.mp4",
+    "poster": "media/posters/20261121_193508.webp",
+    "duration": 148
+   },
+   {
+    "src": "media/videos/20261121_194543.mp4",
+    "poster": "media/posters/20261121_194543.webp",
+    "duration": 85
+   },
+   {
+    "src": "media/videos/20261121_194719.mp4",
+    "poster": "media/posters/20261121_194719.webp",
+    "duration": 14
+   },
+   {
+    "src": "media/videos/20261121_194737.mp4",
+    "poster": "media/posters/20261121_194737.webp",
+    "duration": 214
+   },
+   {
+    "src": "media/videos/20261121_195845.mp4",
+    "poster": "media/posters/20261121_195845.webp",
+    "duration": 303
+   }
+  ]
+ },
+ {
+  "date": "2026-11-22",
+  "title": "연습",
+  "photos": [
+   {
+    "src": "media/photos/20261122_20261122_133756580.webp",
+    "thumb": "media/thumbs/20261122_20261122_133756580.webp",
+    "w": 1600,
+    "h": 1200
+   },
+   {
+    "src": "media/photos/20261122_20261122_133756580_01.webp",
+    "thumb": "media/thumbs/20261122_20261122_133756580_01.webp",
+    "w": 1600,
+    "h": 1200
+   }
+  ],
+  "videos": [
+   {
+    "src": "media/videos/20261122_131025.mp4",
+    "poster": "media/posters/20261122_131025.webp",
+    "duration": 191
+   },
+   {
+    "src": "media/videos/20261122_131532.mp4",
+    "poster": "media/posters/20261122_131532.webp",
+    "duration": 191
+   },
+   {
+    "src": "media/videos/20261122_143730.mp4",
+    "poster": "media/posters/20261122_143730.webp",
+    "duration": 64
+   },
+   {
+    "src": "media/videos/20261122_143846.mp4",
+    "poster": "media/posters/20261122_143846.webp",
+    "duration": 281
+   },
+   {
+    "src": "media/videos/20261122_145031.mp4",
+    "poster": "media/posters/20261122_145031.webp",
+    "duration": 273
+   },
+   {
+    "src": "media/videos/20261122_150600.mp4",
+    "poster": "media/posters/20261122_150600.webp",
+    "duration": 290
+   },
+   {
+    "src": "media/videos/20261122_180935.mp4",
+    "poster": "media/posters/20261122_180935.webp",
+    "duration": 273
+   }
+  ]
  }
 ]
