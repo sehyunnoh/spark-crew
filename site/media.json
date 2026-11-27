@@ -970,5 +970,22 @@
     "duration": 273
    }
   ]
+ },
+ {
+  "date": "2026-11-26",
+  "title": "연습",
+  "photos": [],
+  "videos": [
+   {
+    "src": "media/videos/20261126_182948.mp4",
+    "poster": "media/posters/20261126_182948.webp",
+    "duration": 276
+   },
+   {
+    "src": "media/videos/20261126_183503.mp4",
+    "poster": "media/posters/20261126_183503.webp",
+    "duration": 278
+   }
+  ]
  }
 ]
