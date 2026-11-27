@@ -1,0 +1,459 @@
+{
+ "source": "https://fll.nexus/region/ontario/event/2026torontowtcs/schedule",
+ "event": "Toronto (Western Tech) Qualifying Tournament",
+ "agenda": [
+  {
+   "time": "7:30 AM",
+   "title": "Team Check-in & Pits Open",
+   "place": "Cafeteria"
+  },
+  {
+   "time": "8:10 AM",
+   "title": "Coach Meeting",
+   "place": "Large Gym (Competition Area)"
+  },
+  {
+   "time": "8:45 AM",
+   "title": "Opening Ceremony (Open to the Public)",
+   "place": "Large Gym (Competition Area)"
+  },
+  {
+   "time": "9:30 AM",
+   "title": "Practice Round Begins (Open to the Public)",
+   "place": "Large Gym (Competition Area)"
+  },
+  {
+   "time": "9:30 AM",
+   "title": "Judging Begins (All Judging is CLOSED to the Public)",
+   "place": "Judging Rooms"
+  },
+  {
+   "time": "11:45 AM",
+   "title": "Lunch",
+   "place": "Cafeteria"
+  },
+  {
+   "time": "12:30 PM",
+   "title": "Official Robot Rounds Begin (Open to the Public)",
+   "place": "Large Gym (Competition Area)"
+  },
+  {
+   "time": "2:15 PM",
+   "title": "Robot Game Ends",
+   "place": ""
+  },
+  {
+   "time": "2:15 PM",
+   "title": "Judge Deliberation",
+   "place": "Closed to public"
+  },
+  {
+   "time": "2:15 PM",
+   "title": "Fun Activities!",
+   "place": "See map and info found in team folders!"
+  },
+  {
+   "time": "3:45 PM",
+   "title": "Closing Ceremony (Open to the Public)",
+   "place": "Large Gym (Competition Area)"
+  },
+  {
+   "time": "4:15 PM",
+   "title": "Target Event End Time",
+   "place": ""
+  }
+ ],
+ "judging": {
+  "rooms": [
+   "Judging 1 (Room 203)",
+   "Judging 2 (Room 204)",
+   "Judging 3 (Room 205)",
+   "Judging 4 (206)",
+   "Judging 5 (279A)"
+  ],
+  "rows": [
+   {
+    "time": "9:30 AM",
+    "teams": [
+     "341",
+     "12144",
+     "52777",
+     "16539",
+     "27047"
+    ]
+   },
+   {
+    "time": "10:15 AM",
+    "teams": [
+     "72417",
+     "342",
+     "69255",
+     "75424",
+     "75348"
+    ]
+   },
+   {
+    "time": "11:00 AM",
+    "teams": [
+     "76011",
+     "43550",
+     "70494",
+     "344",
+     "77171"
+    ]
+   },
+   {
+    "time": "11:45 AM",
+    "teams": [
+     "",
+     "52255",
+     "73678",
+     "",
+     ""
+    ]
+   }
+  ]
+ },
+ "robot": {
+  "tables": [
+   "Evelyn",
+   "Fairview",
+   "Gilmour",
+   "High Park",
+   "Pacific",
+   "Kennedy"
+  ],
+  "rows": [
+   {
+    "time": "9:30 AM (practice)",
+    "teams": [
+     "72417",
+     "75348",
+     "342",
+     "70494",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "9:35 AM (practice)",
+    "teams": [
+     "",
+     "",
+     "",
+     "",
+     "77171",
+     "76011"
+    ]
+   },
+   {
+    "time": "9:45 AM (practice)",
+    "teams": [
+     "52255",
+     "43550",
+     "75424",
+     "69255",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "9:50 AM (practice)",
+    "teams": [
+     "",
+     "",
+     "",
+     "",
+     "344",
+     "73678"
+    ]
+   },
+   {
+    "time": "10:15 AM (practice)",
+    "teams": [
+     "12144",
+     "341",
+     "52777",
+     "16539",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "10:20 AM (practice)",
+    "teams": [
+     "",
+     "",
+     "",
+     "",
+     "73678",
+     "70494"
+    ]
+   },
+   {
+    "time": "10:25 AM (practice)",
+    "teams": [
+     "76011",
+     "52255",
+     "344",
+     "43550",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "10:30 AM (practice)",
+    "teams": [
+     "",
+     "",
+     "",
+     "",
+     "27047",
+     "77171"
+    ]
+   },
+   {
+    "time": "11:00 AM (practice)",
+    "teams": [
+     "75424",
+     "12144",
+     "341",
+     "52777",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "11:05 AM (practice)",
+    "teams": [
+     "",
+     "",
+     "",
+     "",
+     "69255",
+     "27047"
+    ]
+   },
+   {
+    "time": "11:15 AM (practice)",
+    "teams": [
+     "",
+     "",
+     "72417",
+     "342",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "11:20 AM (practice)",
+    "teams": [
+     "",
+     "",
+     "",
+     "",
+     "16539",
+     "75348"
+    ]
+   },
+   {
+    "time": "12:35 PM",
+    "teams": [
+     "12144",
+     "341",
+     "",
+     "",
+     "16539",
+     "52777"
+    ]
+   },
+   {
+    "time": "12:40 PM",
+    "teams": [
+     "",
+     "",
+     "27047",
+     "72417",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "12:45 PM",
+    "teams": [
+     "75348",
+     "342",
+     "",
+     "",
+     "75424",
+     "69255"
+    ]
+   },
+   {
+    "time": "12:50 PM",
+    "teams": [
+     "",
+     "",
+     "43550",
+     "76011",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "12:55 PM",
+    "teams": [
+     "344",
+     "77171",
+     "",
+     "",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "1:05 PM",
+    "teams": [
+     "",
+     "",
+     "",
+     "",
+     "70494",
+     "341"
+    ]
+   },
+   {
+    "time": "1:10 PM",
+    "teams": [
+     "",
+     "",
+     "52255",
+     "73678",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "1:15 PM",
+    "teams": [
+     "16539",
+     "72417",
+     "",
+     "",
+     "12144",
+     "27047"
+    ]
+   },
+   {
+    "time": "1:20 PM",
+    "teams": [
+     "",
+     "",
+     "75424",
+     "75348",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "1:25 PM",
+    "teams": [
+     "342",
+     "69255",
+     "",
+     "",
+     "52777",
+     "344"
+    ]
+   },
+   {
+    "time": "1:30 PM",
+    "teams": [
+     "",
+     "",
+     "77171",
+     "341",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "1:35 PM",
+    "teams": [
+     "43550",
+     "70494",
+     "",
+     "",
+     "76011",
+     "52255"
+    ]
+   },
+   {
+    "time": "1:40 PM",
+    "teams": [
+     "",
+     "",
+     "73678",
+     "12144",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "1:50 PM",
+    "teams": [
+     "75424",
+     "16539",
+     "",
+     "",
+     "75348",
+     "72417"
+    ]
+   },
+   {
+    "time": "1:55 PM",
+    "teams": [
+     "",
+     "",
+     "52777",
+     "342",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "2:00 PM",
+    "teams": [
+     "77171",
+     "27047",
+     "",
+     "",
+     "",
+     "70494"
+    ]
+   },
+   {
+    "time": "2:05 PM",
+    "teams": [
+     "",
+     "",
+     "344",
+     "69255",
+     "",
+     ""
+    ]
+   },
+   {
+    "time": "2:10 PM",
+    "teams": [
+     "73678",
+     "43550",
+     "",
+     "",
+     "52255",
+     "76011"
+    ]
+   }
+  ]
+ }
+}

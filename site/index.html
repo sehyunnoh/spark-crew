@@ -26,6 +26,7 @@
     <nav aria-label="주 메뉴">
       <a href="#timeline">타임라인</a>
       <a href="#about">FLL 소개</a>
+      <a href="#schedule">대회 일정</a>
       <a href="#venue">대회 장소</a>
     </nav>
     <a class="btn" href="#venue">⚡ 11월 28일 대회</a>
@@ -61,6 +62,18 @@
     <div class="c"><h3>🤖 로봇 게임</h3><p>미션이 깔린 경기장에서 직접 만든 로봇이 점수를 얻어요.</p></div>
     <div class="c"><h3>🌿 혁신 프로젝트</h3><p>올해 테마 BIOGLOW(생물다양성)와 관련된 문제를 찾아 해결책을 제안해요.</p></div>
     <div class="c"><h3>🤝 코어 밸류</h3><p>발견, 혁신, 영향력, 포용, 팀워크, 즐거움. 함께 성장하는 것이 가장 중요해요.</p></div>
+  </div>
+</section>
+
+<section class="sched" id="schedule">
+  <div class="sec-head wrap"><h2>대회 당일 일정</h2><p>11월 28일 · Toronto (Western Tech) Qualifying Tournament</p></div>
+  <div class="wrap">
+    <div class="pick"><label for="team">우리 팀 번호</label><select id="team"><option value="">전체 보기</option></select></div>
+    <div class="mine card" id="mine" hidden></div>
+    <div class="card"><h3 class="sh">전체 진행표</h3><div class="ag" id="agenda"></div></div>
+    <div class="card"><h3 class="sh">심사 (비공개)</h3><div class="ts"><table id="judging"></table></div></div>
+    <div class="card"><h3 class="sh">로봇 게임</h3><div class="ts"><table id="robot"></table></div></div>
+    <p class="src">출처: <a href="https://fll.nexus/region/ontario/event/2026torontowtcs/schedule" target="_blank" rel="noopener">fll.nexus 대회 일정 ↗</a> · 현장 공지가 우선이에요.</p>
   </div>
 </section>
 
@@ -100,5 +113,6 @@
 </div>
 
 <script src="js/app.js"></script>
+<script src="js/schedule.js"></script>
 </body>
 </html>
