@@ -1,18 +1,13 @@
 (function () {
   'use strict';
-  var sel = document.getElementById('team');
-  if (!sel) return;
+  var pick = document.querySelector('.sched .pick');
+  if (!pick) return;
+  var cur = '73678';
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function get() { try { return localStorage.getItem('sc-team') || ''; } catch (e) { return ''; } }
   function put(v) { try { localStorage.setItem('sc-team', v); } catch (e) {} }
 
   fetch('schedule.json').then(function (r) { return r.json(); }).then(function (S) {
-    var teams = {};
-    S.judging.rows.concat(S.robot.rows).forEach(function (r) { r.teams.forEach(function (t) { if (t) teams[t] = 1; }); });
-    Object.keys(teams).sort(function (a, b) { return a - b; }).forEach(function (t) {
-      var o = document.createElement('option'); o.value = t; o.textContent = t; sel.appendChild(o);
-    });
-
     document.getElementById('agenda').innerHTML = S.agenda.map(function (a) {
       return '<div class="ar"><b>' + esc(a.time) + '</b><span>' + esc(a.title) + (a.place ? '<small>' + esc(a.place) + '</small>' : '') + '</span></div>';
     }).join('');
@@ -31,7 +26,7 @@
     table('robot', S.robot.tables, S.robot.rows);
 
     function apply() {
-      var t = sel.value, box = document.getElementById('mine');
+      var t = cur, box = document.getElementById('mine');
       Array.prototype.forEach.call(document.querySelectorAll('.sched td'), function (td) {
         td.classList.toggle('hit', !!t && td.getAttribute('data-t') === t);
       });
@@ -44,10 +39,14 @@
       }).join('');
       box.hidden = false;
     }
-    sel.value = get();
-    if (sel.value !== get()) sel.value = '';
-    sel.addEventListener('change', function () { put(sel.value); apply(); });
-    apply();
+    var saved = get();
+    if (saved === 'all') cur = '';
+    function sync() { Array.prototype.forEach.call(pick.querySelectorAll('button'), function (b) { b.classList.toggle('on', b.getAttribute('data-v') === cur); }); }
+    pick.addEventListener('click', function (e) {
+      var b = e.target.closest('button'); if (!b) return;
+      cur = b.getAttribute('data-v'); put(cur ? '73678' : 'all'); sync(); apply();
+    });
+    sync(); apply();
   }).catch(function () {
     document.getElementById('agenda').textContent = '일정을 불러오지 못했어요.';
   });
